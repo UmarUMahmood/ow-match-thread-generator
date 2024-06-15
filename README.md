@@ -12,8 +12,8 @@ This project fetches match data from FACEIT to generate a Post-Match Discussion 
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/yourusername/faceit-match-data-fetcher.git
-    cd faceit-match-data-fetcher
+    git clone git@github.com:UmarUMahmood/ow-match-thread-generator.git
+    cd ow-match-thread-generator
     ```
 
 2. **Create a virtual environment:**
