@@ -1,0 +1,43 @@
+{
+  "player_id": "39042a9c-ac5f-47b4-8376-29c45676c2e9",
+  "nickname": "SparkRow",
+  "avatar": "https://distribution.faceit-cdn.net/images/9bb8d755-f71a-40bc-a7b0-f2d0fd817746.jpeg",
+  "country": "se",
+  "cover_image": "https://distribution.faceit-cdn.net/images/097b23a7-ebb2-470d-866a-a9505b14a56a.jpeg",
+  "platforms": null,
+  "games": {
+    "ow2": {
+      "region": "GLOBAL",
+      "game_player_id": "138565873",
+      "skill_level": 10,
+      "faceit_elo": 2141,
+      "game_player_name": "SparkR",
+      "skill_level_label": "",
+      "regions": {},
+      "game_profile_id": ""
+    }
+  },
+  "settings": {
+    "language": "en"
+  },
+  "friends_ids": [
+    "4a44caf4-4326-4b66-809a-9480b3b5801c",
+    "6d241a2e-c3c9-4906-af9f-8cf9e5847719",
+    "a12c7612-d162-4a26-8053-ece68c1f67f7",
+    "a332d27e-fe19-4077-89f8-27391a581460",
+    "4a2e533d-1b97-4324-8070-0ba47edd887f",
+    "423b8943-30c9-4436-8a22-51ca77aa7fca",
+    "5f60ca5b-92be-4673-b2c6-06623b111467",
+    "d8f35c30-6487-40c2-ac9d-5c4cb738031b"
+  ],
+  "new_steam_id": "",
+  "steam_id_64": "",
+  "steam_nickname": "",
+  "memberships": ["ow2_league_pass"],
+  "faceit_url": "https://www.faceit.com/{lang}/players/SparkRow",
+  "membership_type": "",
+  "cover_featured_image": "",
+  "infractions": {},
+  "verified": true,
+  "activated_at": "2024-01-31T22:47:45.604Z"
+}
