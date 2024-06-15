@@ -2,15 +2,6 @@
 
 This project fetches match data from FACEIT to generate a Post-Match Discussion thread can be used for r/competitiveoverwatch.
 
-## Table of Contents
-
-- [OW-Match-Thread-Generator](#ow-match-thread-generator)
-  - [Table of Contents](#table-of-contents)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Configuration](#configuration)
-  - [Usage](#usage)
-
 ## Prerequisites
 
 - Python 3.6 or higher
