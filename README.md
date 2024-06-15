@@ -61,3 +61,4 @@ This project fetches match data from FACEIT to generate a Post-Match Discussion 
 2. **Copy/Paste the output:**
 
     After running the script, copy the output from the terminal and paste it in your reddit post/comment.
+    The first line is your title and the rest is the body of the post.
