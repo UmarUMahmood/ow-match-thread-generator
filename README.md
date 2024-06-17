@@ -38,6 +38,8 @@ This project fetches match data from FACEIT to generate a Post-Match Discussion 
     ```
 
     Replace `api-key-here` with your actual FACEIT API key. You can obtain an API key from the [FACEIT Developer Portal](https://developers.faceit.com/).
+    In App Studio, select your app, go to Webhooks and create a new Webhook.
+    Use the organizer id `f0e8a591-08fd-4619-9d59-d97f0571842e`, check the "Match Finished" checkbox and use the callback URL used to host the Flask app along with the matching Security header name and value.
 
 ## Usage
 
@@ -47,9 +49,7 @@ This project fetches match data from FACEIT to generate a Post-Match Discussion 
     python3 main.py
     ```
 
-    Follow the prompts to enter a match URL and generate the post-match discussion summary.
-
 2. **Copy/Paste the output:**
 
-    After running the script, copy the output from the terminal and paste it in your reddit post/comment.
+    After running the script, copy the output from the generated .md file and paste it in your reddit post/comment.
     The first line is your title and the rest is the body of the post.
