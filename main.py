@@ -163,10 +163,23 @@ def generate_report(match_id, api_key):
 @app.route("/webhook", methods=["POST"])
 def get_match_id_from_webhook():
     if request.headers.get("Security-Header-Name") == "Security-Header-Value":
-        match_id = request.json["payload"]["id"]
-        generate_report(match_id, API_KEY)
-        return jsonify({"status": "success"}), 200
-    return jsonify({"status": "unauthorized"}), 401
+        data = request.json
+        tournament_name = data["payload"]["entity"]["name"]
+        
+        # the webhook fires for the Open/Expert Playoffs too, so we specify this
+        valid_tournaments = [
+            "S1 EMEA Master: Road to Esports World Cup Central - Playoffs",
+            "S1 NA Master: Road to Esports World Cup Central - Playoffs"
+        ]
+        
+        if tournament_name in valid_tournaments:
+            match_id = data["payload"]["id"]
+            generate_report(match_id, API_KEY)
+            return jsonify({"status": "success"}), 200
+        else:
+            return jsonify({"status": "ignored"}), 200
+    else:
+        return jsonify({"status": "unauthorized"}), 401
 
 
 if __name__ == "__main__":
