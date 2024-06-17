@@ -39,7 +39,7 @@ This project fetches match data from FACEIT to generate a Post-Match Discussion 
 
     Replace `api-key-here` with your actual FACEIT API key. You can obtain an API key from the [FACEIT Developer Portal](https://developers.faceit.com/).
     In App Studio, select your app, go to Webhooks and create a new Webhook.
-    Use the organizer id `f0e8a591-08fd-4619-9d59-d97f0571842e`, check the "Match Finished" checkbox and use the callback URL used to host the Flask app along with the matching Security header name and value.
+    Use the organizer id for the event you want to focus on, check the "Match Finished" checkbox and use the callback URL used to host the Flask app along with the matching Security header name and value.
 
 ## Usage
 
